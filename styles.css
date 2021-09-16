@@ -16,17 +16,17 @@ nav {
   padding: 4rem 10rem;
 }
 
-.row-container {
+#navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.menu-items {
+#menu-items {
   display: flex;
 }
 
-.menu-items li {
+#menu-items li {
   padding: 0.5rem 2rem;
 }
 
@@ -42,7 +42,7 @@ ul {
   padding: 0.6rem 1.5rem;
 }
 
-.number1 {
+#number1 {
   display: flex;
   background-color: #e2eaed;
   border-radius: 2rem;
@@ -57,13 +57,13 @@ a {
 
 header {
   background:  
-  /* url("Layer 3@1X.png"),  */ url("Layer 5@1X.png");
+  /* url("/assets/Layer 3@1X.png"),  */ url("/assets/Layer 5@1X.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: auto;
 }
 
-.herounit-container {
+#herounit-container {
   display: flex;
   align-items: center;
   justify-content: center;
